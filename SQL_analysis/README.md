@@ -159,6 +159,26 @@ A large proportion of the highest-priced properties were located in Mumbai, part
 
 ---
 
+### 13. Top 5 Most Expensive Properties in Each City
+
+Identified the top 5 highest-priced properties in every city.
+
+**Key insight:**
+
+Mumbai and Bengaluru show particularly high-priced properties compared with the other cities. The analysis also demonstrates that the most expensive property type varies by city, indicating that property pricing is influenced by multiple factors rather than city alone.
+
+---
+
+### 14. Properties Priced Above Their City's Average
+
+For each city, which properties are priced above their city's average property price?
+
+**Key insight:**
+
+There is substantial variation within-city price. This supports the use of additional property-level features such as area, bedrooms, locality tier, property type and amenities when predicting property prices rather than relying only on city-level pricing.
+
+---
+
 ## SQL Concepts Demonstrated
 
 The analysis demonstrates the use of:
