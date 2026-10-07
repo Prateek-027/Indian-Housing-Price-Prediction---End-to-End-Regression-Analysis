@@ -6,7 +6,7 @@ This notebook presents an end-to-end machine learning workflow for predicting re
 
 The project combines exploratory data analysis, data quality checks, preprocessing, regression modeling, hyperparameter tuning, model evaluation, residual analysis, and feature importance analysis.
 
-The target variable is `price_lakh`, representing the property price in INR lakhs.
+The target variable is price_lakh, representing the property price in INR lakhs.
 
 > **Dataset Note:** The dataset used in this project is synthetic and was created for educational and portfolio purposes. It does not represent actual property listings or real-world transaction data.
 
@@ -119,10 +119,10 @@ The preprocessing workflow was implemented using a Scikit-learn pipeline.
 
 - Most-frequent imputation
 - One-hot encoding
-- `drop='first'`
-- `handle_unknown='ignore'`
+- drop='first'
+- handle_unknown='ignore'
 
-A `ColumnTransformer` was used to apply the appropriate preprocessing to numerical and categorical variables.
+A ColumnTransformer was used to apply the appropriate preprocessing to numerical and categorical variables.
 
 This approach also helped prevent data leakage by fitting preprocessing steps only on the training data.
 
@@ -182,11 +182,11 @@ The R² indicates that the model explains approximately 87.4% of the variation i
 
 Feature importance from the final Gradient Boosting model showed that the most influential features included:
 
-1. `area_sqft`
-2. `city_Mumbai`
-3. `locality_tier_Prime`
-4. `bedrooms`
-5. `city_Delhi NCR`
+1. area_sqft
+2. city_Mumbai
+3. locality_tier_Prime
+4. bedrooms
+5. city_Delhi NCR
 
 Property size was the most influential feature, followed by location-related variables.
 
