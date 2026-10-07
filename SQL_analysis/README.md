@@ -1,6 +1,6 @@
 # SQL Analysis – Indian Housing Price Prediction
 
-  # Overview
+## Overview
 
 This folder contains the SQL-based exploratory analysis performed on the Indian housing dataset using MySQL.
 
